@@ -10,8 +10,8 @@ salario_mensal = 1000 #Salário mensal do funcionário
 
 comissao_por_carro = 200 #Comissão por venda de carro
 
-porcentagem_valor_venda = 0.05*carro_vendido #5% do valor da venda total
+porcentagem_valor_venda = 0.05 * valor_venda #5% do valor da venda total
 
-salario_total = salario_mensal + (carro_vendido*comissao_por_carro) *porcentagem_valor_venda
+salario_total = salario_mensal + (carro_vendido*comissao_por_carro) + porcentagem_valor_venda
 
 print(f'o salário total de {nome} é de {salario_total:.2f} ')

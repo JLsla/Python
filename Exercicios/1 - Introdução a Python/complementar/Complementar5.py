@@ -5,4 +5,3 @@ horas = segundos // 3600 # 1 hora igual a 3600 segundos
 minutos = (segundos % 3600) // 60 
 segundos_restantes = segundos % 60
 print(f" A quantidade de {segundos} convertidos em horas e minutos é igual a {horas} horas {minutos} minutos {segundos_restantes} segundos")
-
