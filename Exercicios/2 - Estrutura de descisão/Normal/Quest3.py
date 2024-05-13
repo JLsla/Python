@@ -1,4 +1,4 @@
-# Escreva um programa que leia 3 números inteiros, determine e mostre o maior deles.
+# 3. Escreva um programa que leia 3 números inteiros, determine e mostre o maior deles.
 
 num1 = float(input("digite um número: "))
 num2 = float(input("digite outro número: "))
