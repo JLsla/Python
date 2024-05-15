@@ -5,7 +5,7 @@ num2= float(input("Qual o segundo número: "))
 operador= input("Qual a conta para finalizar a conta: ")
 
 if (operador == "+"):
-   soma = num1 + num2
+    soma = num1 + num2
     print(f"{num1} + {num2} = a {soma} ")
 
 elif (operador == "-"):
@@ -13,11 +13,11 @@ elif (operador == "-"):
     print(f"A subtração de {num1} com {num2} é igual a {subtracao}")
         
 elif (operador == "x" or operador == "."):
-   multiplicacao = num1 * num2
+    multiplicacao = num1 * num2
     print(f"A multiplicação entre {num1} e {num2} é igual a {multiplicacao}")
 
 elif (operador == "*"):
-potenciacao = num1 ** num2
+    potenciacao = num1 ** num2
     print(f"A potenciação de {num1} com {num2} é igual a {potenciacao}")
 
 elif (operador == "/"):
