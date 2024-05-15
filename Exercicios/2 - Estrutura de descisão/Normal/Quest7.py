@@ -5,12 +5,11 @@ altura = int(input("Qual a alturadessa pessoa em (m): "))
 
 imc = peso / (altura ** 2)
 
-if imc == < 26:
+if imc <= 26:
     print(f"Essa pessoa está normal")
 
-elif imc == 26 or imc == <30:
+elif imc == 26 or imc <= 30:
     print(f"Essa pessoa está obesa")
 
 else:
     print(f"Essa pessoa está com obesidade mórbida")
-
