@@ -4,14 +4,17 @@
 matricula = 1
 nota = 0
 nota2 = 0
-soma = nota + nota2
 
-while (matricula == 0):
+while (matricula != 0):
     matricula = input("Qual o número da matricula: ")
     nome = input("Qual o nome do aluno: ")
     nota = float(input("me de a nota: "))
     nota2 = float(input("me de a segunda nota: "))
-    if (soma <= 7):
-        print(f"O aluno(a) {nome} foi aprovado com a nota {soma}")
+    nota3 = float(input("me de a terceira nota: "))
+
+    media = (nota + nota2 + nota3 ) // 3
+    
+    if (media >= 7):
+        print(f"O aluno(a) {nome} foi aprovado com a nota {media}")
     else: 
-        print(f"O aluno(a) {nome} foi reprovado ficou com {soma}")
+        print(f"O aluno(a) {nome} foi reprovado ficou com {media}")

@@ -22,17 +22,22 @@ h = 5.00
 c= 6.00
 b = 7.00
 f = 4.00
-finalizar = 0
 
-while finalizar == "x":
-    h = int(input("Hamburguer: "))
-    finalizar = input(f"Para finalizar digitar x ou X").lower()
-    c = int(input("Cheese Burguer: "))
-    finalizar = input(f"Para finalizar digitar x ou X").lower()
-    b = int(input("Cheese Bacon: "))
-    finalizar = input(f"Para finalizar digitar x ou X").lower()
-    f = int(input("Cheese Frango: "))
-   
-    
-
-
+while True:
+    codigo = input('Qual o código do seu pedido? ').lower()
+    if codigo == 'x':
+        break
+    else:
+        quant = int(input("Qual a quantidade? "))
+        if (codigo == 'h'):
+            total += (quant * h)
+        elif codigo == 'c':
+            total += (quant * c)
+        elif codigo == 'b':
+            total += (quant * b)
+        elif codigo == 'f':
+            total += (quant * f)
+        else:
+            print('Digite um código válido!')
+            
+print(f'O total da sua compra deu {total}')
