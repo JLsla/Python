@@ -6,9 +6,9 @@
 
 #Saída: Hooojeee teeem aaauuulaaa deee Pythooon
 
-frase = 'Hoje tem aula de Python'
+frase = input('Me diga uma frase: ')
 frase = frase.split()
-n = 3
+n = int(input('Me diga um número para multiplicar as vogais: '))
 
 for i in range(len(frase)):
     letras = []
