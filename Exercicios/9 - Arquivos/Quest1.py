@@ -1,4 +1,5 @@
 # 1. Escreva um programa que exiba na tela um arquivo de texto cujo nome será lido pelo teclado.
+from geradorDeArquivos import geradorDeArquivos
 
 nomeArquivo = input(": ")
-arq = open(f"Exercicios/9 - Arquivos/arquivos/{nomeArquivo}.txt", 'w')
+arq = geradorDeArquivos(nomeArquivo, 'w')
